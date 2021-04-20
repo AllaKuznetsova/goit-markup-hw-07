@@ -375,13 +375,13 @@ color: var(--accent-color);
 
 /* features */
 
-.advantages {
+.edge {
   display: flex;
   justify-content: center;
   margin-bottom: 94px;
 }
 
-.advantages__title {
+.edge__title {
   margin-bottom: 10px;
   margin-top: 30px;
   letter-spacing: 0.03em;
@@ -391,18 +391,18 @@ color: var(--accent-color);
   margin-left: 0;
   margin-right: 0;
 }
-.advantages__list,
-.Benefits__item,
+.edge__list,
+.profit__item,
 .employees__list {
   margin-right: 30px;
 }
-.advantages__list:last-child,
-.Benefits__item:last-child,
+.edge__list:last-child,
+.profit__item:last-child,
 .ourteams-ul:last-child,
 .employees__list:last-child {
   margin-right: 0;
 }
-.advantages__text {
+.edge__text {
   color: var(--primary-text-color);
   margin-top: 0;
   margin-bottom: 0;
@@ -410,7 +410,7 @@ color: var(--accent-color);
   line-height: 1.71;
   width: 270px;
 }
-.advantages__wrap {
+.edge__wrap {
   display: inline-block;
   height: 120px;
   width: 270px;
@@ -419,21 +419,21 @@ color: var(--accent-color);
   background-position: center;
   background-color: #f5f4fa;
 }
-.advantages__icon {
+.edge__icon {
   display: block;
   margin: 25px 100px;
 }
 
 /* Benefits */
-.Benefits {
+.profit {
   display: flex;
 }
-.Benefits__thumb {
+.profit__thumb {
   position: relative;
   z-index: -1;
 }
 
-.Benefits__text {
+.profit__text {
   position: absolute;
   height: 70px;
   width: 100%;
