@@ -1,0 +1,16 @@
+@import url("./utils/_placeholder.scss");
+@import url("./utils/_variables.scss");
+@import url("./components/_base.scss");
+@import url("./components/_benefits.scss");
+@import url("./components/_button.scss");
+@import url("./components/_customers.scss");
+@import url("./components/_employees.scss");
+@import url("./components/_features.scss");
+@import url("./components/_footer.scss");
+@import url("./components/_hero-section.scss");
+@import url("./components/_logo.scss");
+@import url("./components/_modal.scss");
+@import url("./components/_page-header.scss");
+@import url("./components/_portfolio_cards.scss");
+@import url("./components/_socials.scss");
+/*# sourceMappingURL=main.css.map */
