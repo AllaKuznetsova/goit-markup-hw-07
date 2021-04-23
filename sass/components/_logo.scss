@@ -1,21 +1,21 @@
 .logo {
-    font-family: 'Raleway', sans-serif;
-    font-weight: $font-weight-bold;
-    font-size: 26px;
-    line-height: 1.19;
-    text-decoration: none;
-    color: #000000;
-    letter-spacing: 0.03em;
-  }
-  .page-header__logo {
-    margin-right: 43px;
-  }
-  .logo__text {
-    color: getColor('hover');
-  }
-  .page-footer__logo {
-    display: inline-block;
-    margin-bottom: 20px;
-    margin-right: 86px;
-    color: getColor('white');
-  }
+  font-family: 'Raleway', sans-serif;
+  font-weight: $font-weight-bold;
+  font-size: 26px;
+  line-height: 1.19;
+  text-decoration: none;
+  color: #000000;
+  letter-spacing: 0.03em;
+}
+.page-header__logo {
+  margin-right: 43px;
+}
+.logo__text {
+  color: getColor('hover');
+}
+.page-footer__logo {
+  display: inline-block;
+  margin-bottom: 20px;
+  margin-right: 86px;
+  color: getColor('white');
+}

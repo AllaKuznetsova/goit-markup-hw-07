@@ -1,20 +1,16 @@
-@import './utils/colors';
-@import url('./utils/_placeholder.scss');
-@import url('./utils/_variables.scss');
-
-
-@import url('./components/_base.scss');
-@import url('./components/_benefits.scss');
-@import url('./components/_button.scss');
-@import url('./components/_customers.scss');
-@import url('./components/_employees.scss');
-@import url('./components/_features.scss');
-@import url('./components/_footer.scss');
-@import url('./components/_hero-section.scss');
-@import url('./components/_logo.scss');
-@import url('./components/_modal.scss');
-@import url('./components/_page-header.scss');
-@import url('./components/_portfolio_cards.scss');
-@import url('./components/_socials.scss');
-
-
+@import 'utils/colors';
+@import 'utils/variables';
+@import 'utils/placeholder';
+@import 'components/base';
+@import 'components/page-header';
+@import 'components/logo';
+@import 'components/footer';
+@import 'components/hero-section';
+@import 'components/button';
+@import 'components/modal';
+@import 'components/features';
+@import 'components/benefits';
+@import 'components/employees';
+@import 'components/customers';
+@import 'components/socials';
+@import 'components/portfolio_cards';

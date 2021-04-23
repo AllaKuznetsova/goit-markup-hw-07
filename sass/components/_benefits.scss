@@ -1,34 +1,34 @@
-.edge__title {
-    @extend %titles;
+.Benefit__title {
+  @extend %titles;
+}
+.Benefit__list {
+  display: flex;
+  @extend %list;
+}
+.Benefit__thumb {
+  position: relative;
+  z-index: -1;
+}
+
+.Benefit__text {
+  position: absolute;
+  bottom: 0;
+  display: block;
+  height: 70px;
+  width: 100%;
+  padding: 27px 0;
+  margin: 0;
+  font-weight: $font-weight-bold;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: getColor('white');
+  text-align: center;
+  background: rgba(47, 48, 58, 0.8);
+}
+.Benefit__item {
+  margin-right: 30px;
+
+  &:last-child {
+    margin-right: 0;
   }
-  .edge__list {
-    display: flex;
-    @extend %list;
-  }
-  .edge__thumb {
-    position: relative;
-    z-index: -1;
-  }
-  
-  .edge__text {
-    position: absolute;
-    bottom: 0;
-    display: block;
-    height: 70px;
-    width: 100%;
-    padding: 27px 0;
-    margin: 0;
-    font-weight: $font-weight-bold;
-    letter-spacing: 0.03em;
-    text-transform: uppercase;
-    color: getColor('white');
-    text-align: center;
-    background: rgba(47, 48, 58, 0.8);
-  }
-  .edge__item {
-    margin-right: 30px;
-  
-    &:last-child {
-      margin-right: 0;
-    }
-  }
+}
