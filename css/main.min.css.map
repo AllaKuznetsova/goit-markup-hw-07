@@ -1,0 +1,10 @@
+{
+    "version": 3,
+    "mappings": "AACA,OAAO,CAAC,gCAAI,CACZ,OAAO,CAAC,8BAAI,CAGZ,OAAO,CAAC,8BAAI,CACZ,OAAO,CAAC,kCAAI,CACZ,OAAO,CAAC,gCAAI,CACZ,OAAO,CAAC,mCAAI,CACZ,OAAO,CAAC,mCAAI,CACZ,OAAO,CAAC,kCAAI,CACZ,OAAO,CAAC,gCAAI,CACZ,OAAO,CAAC,sCAAI,CACZ,OAAO,CAAC,8BAAI,CACZ,OAAO,CAAC,+BAAI,CACZ,OAAO,CAAC,qCAAI,CACZ,OAAO,CAAC,yCAAI,CACZ,OAAO,CAAC,iCAAI",
+    "sources": [
+        "../sass/main.scss",
+        "../sass/utils/_colors.scss"
+    ],
+    "names": [],
+    "file": "main.min.css"
+}
