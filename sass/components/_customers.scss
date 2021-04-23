@@ -1,0 +1,34 @@
+.customers {
+    @extend %list;
+    @extend %flex-center;
+  }
+  .customers__title {
+    @extend %titles;
+  }
+  .customers__item {
+    display: flex;
+    margin-left: auto;
+    padding: 32px 0;
+  }
+  .customers__link {
+    @extend %time-function-color;
+    display: inline-block;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+    width: 170px;
+    height: 90px;
+    border: 1px solid #afb1b8;
+    border-radius: 4px;
+    fill: currentColor;
+    color: #afb1b8;
+    transition: color $transition-duration $timing-function,
+      border-color $transition-duration $timing-function;
+  
+    &:hover,
+    &:focus {
+      border-color: getColor('hover');
+      color: getColor('hover');
+    }
+  }

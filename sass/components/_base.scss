@@ -1,0 +1,29 @@
+body {
+    margin: 0px;
+    font-family: $base-font;
+    line-height: 1.14;
+    background-color: getColor('white');
+    color: getColor('titles');
+    font-size: 14px;
+    font-weight: $font-weight-normal;
+    font-style: normal;
+  }
+  
+  h1,
+  h2,
+  h3 {
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+  .img-block {
+    display: block;
+  }
+  .container {
+    margin: 0 auto;
+    padding-left: 15px;
+    padding-right: 15px;
+    max-width: 1200px;
+  }
+  .section {
+    padding: $section-padding;
+  }
